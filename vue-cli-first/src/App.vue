@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <HeroMain/>
+    <HeroSub/>
   </div>
 </template>
 
 <script>
 import HeroMain from './components/HeroMain.vue'
+import HeroSub from './components/HeroSub.vue'
 
 export default {
   name: 'App',
   components: {
-    HeroMain
+    HeroMain,
+    HeroSub
   }
 }
 </script>
