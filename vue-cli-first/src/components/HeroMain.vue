@@ -2,7 +2,7 @@
   <div class="hero">
     <div class="container">
       <div class="row">
-        <div class="col-12 hero">
+        <div class="col-12 hero hero_main">
           <h1>IS THAT THE REAL VUE?</h1>
         </div>
       </div>
@@ -18,17 +18,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-  .hero {
+  .hero_main{
     background-image: url(https://www.icegif.com/wp-content/uploads/2022/03/icegif-1061.gif);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 70vh;
-  }
-  .hero>*{
-    color: #fff;
-    font-size: 50px;
-    text-shadow: 3px 3px #000;
-    transform: translateY(20px);
   }
 </style>
